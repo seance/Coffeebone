@@ -1,0 +1,14 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<div id="foo-app">
+	<div><strong>Foo App</strong> (<a href="#" id="new-foo">new</a>)</div>
+	<ul id="foo-list">
+	</ul>
+	<span>You have <span id="foo-count"></span>. Good for you!</span>
+</div>
+
+
+<script type="text/template" id="foo-tmpl">
+	<span class="foo"><%= name %></span>
+</script>

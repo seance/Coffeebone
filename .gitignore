@@ -1,0 +1,8 @@
+.*
+!.gitignore
+
+db
+eclipse
+logs
+tmp
+test-result
