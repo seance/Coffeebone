@@ -1,5 +1,5 @@
 define ['backbone', 'cs!FooView'], (Backbone, FooView) ->
-	class AppView extends Backbone.View
+	class MainView extends Backbone.View
 		constructor: (@foos) -> super
 		el: $('#foo-app')
 		events:
