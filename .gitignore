@@ -1,8 +1,11 @@
 .*
 !.gitignore
 
-db
 eclipse
-logs
 tmp
+modules
 test-result
+lib
+logs
+precompiled
+server.pid
